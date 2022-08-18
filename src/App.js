@@ -26,11 +26,37 @@ function Pad() {
   );
 }
 
+function ControlPanel() {
+  return (
+    <div className="controlPanel">
+      <div className="switcher">
+        <p>Power</p>
+        <div className="select">
+          <div className="inner"></div>
+        </div>
+      </div>
+      <p className="display">
+        
+      </p>
+      <div className="volumeSlider">
+        <input type="range" step="0.01" min="0" max="1" />
+      </div>
+      <div className="switcher">
+        <p>Bank</p>
+        <div className="select">
+          <div className="inner"></div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
 function App() {
 
   return (
     <div id="drumMachine">
       <Pad />
+      <ControlPanel />
     </div>
   );
 }
