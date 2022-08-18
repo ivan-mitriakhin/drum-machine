@@ -1,0 +1,35 @@
+$mainColor: #000;
+$sideColor: rgb(23, 22, 22);
+$additionalColor: #ffffff;
+
+#drumMachine {
+    height: 50vh;
+    width: 50vw;
+    background-color: $mainColor;
+    border: 5px solid $additionalColor;
+}
+
+.pad {
+    height: 82%;
+    width: 48%;
+    margin: 30px 0px 0px 40px;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+
+    .drumPad {
+        height: 90px;
+        width: 112px;
+        background-color: $sideColor;
+        color: $additionalColor;
+        margin: auto;
+        outline: 3px solid $additionalColor;
+        border-radius: 2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $additionalColor;
+        font-weight: bold;
+        font-size: 1.25em;
+        cursor: pointer;
+    }
+}
