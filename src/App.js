@@ -34,7 +34,7 @@ function Button(props) {
   }
   
   return (
-    <div className="drumPad" id={props.clipId} onClick={playSound}>
+    <div className="drum-pad" id={props.clipId} onClick={playSound}>
       <audio className="clip" id={props.keyTrigger} src={props.clip}/>
       {props.keyTrigger}
     </div>
@@ -84,7 +84,7 @@ function ControlPanel(props) {
           <div className="inner" style={props.powerSlider}></div>
         </div>
       </div>
-      <p className="display">
+      <p className="display" id="display">
         <span>{props.display}</span>
       </p>
       <div className="volumeSlider">
@@ -152,7 +152,7 @@ function App() {
   }
 
   return (
-    <div id="drumMachine">
+    <div id="drum-machine">
       <Pad 
         power={power}
         currentPadBank={currentPadBank}

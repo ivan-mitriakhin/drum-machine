@@ -3,7 +3,7 @@ $sideColor: rgb(27, 26, 26);
 $additionalColor: #ffffff;
 $contrastColor: blue;
 
-#drumMachine {
+#drum-machine {
     height: 50vh;
     width: 50vw;
     background-color: $mainColor;
@@ -19,7 +19,7 @@ $contrastColor: blue;
     display: grid;
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
 
-    .drumPad {
+    .drum-pad {
         height: 90px;
         width: 112px;
         background-color: $sideColor;

@@ -1,4 +1,4 @@
-#drumMachine {
+#drum-machine {
   height: 50vh;
   width: 50vw;
   background-color: #000;
@@ -14,7 +14,7 @@
   display: grid;
   grid-template: repeat(3, 1fr)/repeat(3, 1fr);
 }
-.pad .drumPad {
+.pad .drum-pad {
   height: 90px;
   width: 112px;
   background-color: rgb(27, 26, 26);
