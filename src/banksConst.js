@@ -3,55 +3,55 @@ const bankOne = [
         keyCode: 81,
         keyTrigger: 'Q',
         id: 'percussion1',
-        src: '/audio/bank1/percussion1.wav' 
+        src: 'https://github.com/ivan-mitriakhin/drum-machine/blob/main/public/audio/bank1/percussion1.wav?raw=true' 
     },
     {
         keyCode: 87,
         keyTrigger: 'W',
         id: 'percussion2',
-        src: '/audio/bank1/percussion2.wav'
+        src: 'https://github.com/ivan-mitriakhin/drum-machine/blob/main/public/audio/bank1/percussion2.wav?raw=true'
     },
     {
         keyCode: 69,
         keyTrigger: 'E',
         id: 'openHat',
-        src: '/audio/bank1/openhat.wav'
+        src: 'https://github.com/ivan-mitriakhin/drum-machine/blob/main/public/audio/bank1/openhat.wav?raw=true'
     },
     {
         keyCode: 65,
         keyTrigger: 'A',
         id: 'mediumTom',
-        src: '/audio/bank1/mediumtom.wav'
+        src: 'https://github.com/ivan-mitriakhin/drum-machine/blob/main/public/audio/bank1/mediumtom.wav?raw=true'
     },
     {
         keyCode: 83,
         keyTrigger: 'S',
         id: 'softTom',
-        src: '/audio/bank1/softtom.wav'
+        src: 'https://github.com/ivan-mitriakhin/drum-machine/blob/main/public/audio/bank1/softtom.wav?raw=true'
     },
     {
         keyCode: 68,
         keyTrigger: 'D',
         id: 'hiHat',
-        src: '/audio/bank1/hihat.wav'
+        src: 'https://github.com/ivan-mitriakhin/drum-machine/blob/main/public/audio/bank1/hihat.wav?raw=true'
     },
     {
         keyCode: 90,
         keyTrigger: 'Z',
         id: 'kicknHat',
-        src: '/audio/bank1/kicknhat.wav'
+        src: 'https://github.com/ivan-mitriakhin/drum-machine/blob/main/public/audio/bank1/kicknhat.wav?raw=true'
     },
     {
         keyCode: 88,
         keyTrigger: 'X',
         id: 'kick',
-        src: '/audio/bank1/kick.wav'
+        src: 'https://github.com/ivan-mitriakhin/drum-machine/blob/main/public/audio/bank1/kick.wav?raw=true'
     },
     {
         keyCode: 67,
         keyTrigger: 'C',
         id: 'snare',
-        src: '/audio/bank1/snare.wav'
+        src: 'https://github.com/ivan-mitriakhin/drum-machine/blob/main/public/audio/bank1/snare.wav?raw=true'
     }
 ];
 
@@ -60,55 +60,55 @@ const bankTwo = [
         keyCode: 81,
         keyTrigger: 'Q',
         id: 'chime',
-        src: '/audio/bank2/chime.wav' 
+        src: 'https://github.com/ivan-mitriakhin/drum-machine/blob/main/public/audio/bank1/chime.wav?raw=true' 
     },
     {
         keyCode: 87,
         keyTrigger: 'W',
         id: 'rattler',
-        src: '/audio/bank2/rattler.wav'
+        src: 'https://github.com/ivan-mitriakhin/drum-machine/blob/main/public/audio/bank1/rattler.wav?raw=true'
     },
     {
         keyCode: 69,
         keyTrigger: 'E',
         id: 'openHat',
-        src: '/audio/bank2/openhat.wav'
+        src: 'https://github.com/ivan-mitriakhin/drum-machine/blob/main/public/audio/bank1/openhat.wav?raw=true'
     },
     {
         keyCode: 65,
         keyTrigger: 'A',
         id: 'bells',
-        src: '/audio/bank2/bells.wav'
+        src: 'https://github.com/ivan-mitriakhin/drum-machine/blob/main/public/audio/bank1/bells.wav?raw=true'
     },
     {
         keyCode: 83,
         keyTrigger: 'S',
         id: 'rim',
-        src: '/audio/bank2/rim.wav'
+        src: 'https://github.com/ivan-mitriakhin/drum-machine/blob/main/public/audio/bank1/rim.wav?raw=true'
     },
     {
         keyCode: 68,
         keyTrigger: 'D',
         id: 'hiHat',
-        src: '/audio/bank2/hihat.wav'
+        src: 'https://github.com/ivan-mitriakhin/drum-machine/blob/main/public/audio/bank1/hihat.wav?raw=true'
     },
     {
         keyCode: 90,
         keyTrigger: 'Z',
         id: 'shaker',
-        src: '/audio/bank2/shaker.wav'
+        src: 'https://github.com/ivan-mitriakhin/drum-machine/blob/main/public/audio/bank1/shaker.wav?raw=true'
     },
     {
         keyCode: 88,
         keyTrigger: 'X',
         id: 'kick',
-        src: '/audio/bank2/kick.wav'
+        src: 'https://github.com/ivan-mitriakhin/drum-machine/blob/main/public/audio/bank1/kick.wav?raw=true'
     },
     {
         keyCode: 67,
         keyTrigger: 'C',
         id: 'clap',
-        src: '/audio/bank2/clap.wav'
+        src: 'https://github.com/ivan-mitriakhin/drum-machine/blob/main/public/audio/bank1/clap.wav?raw=true'
     }
 ];
 export { bankOne, bankTwo };
